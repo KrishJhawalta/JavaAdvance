@@ -32,9 +32,6 @@ class Cylinder extends Circle{
     }
 }
 
-
-
-
 public class Question3 {
     static void main(String[] args) {
         Circle c1 = new Circle(5);
