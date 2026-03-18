@@ -36,7 +36,7 @@ class cylinder extends Rectangle{
         return 3.14*(getWidth()*getWidth())*hieght;
     }
 
-}
+} // main method 	
 public class Question4 {
    public static void main(String[] args) {
         Rectangle r1 = new Rectangle(10,20);
