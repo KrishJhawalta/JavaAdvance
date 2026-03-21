@@ -28,7 +28,7 @@ class cylinder extends Rectangle{
        hieght = h;
     }
 
-    public void setHeight(int h){
+    public void setHeight(int h){  //method
         hieght = h;
     }
 
