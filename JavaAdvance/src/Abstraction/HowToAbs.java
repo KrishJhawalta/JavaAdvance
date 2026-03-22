@@ -10,17 +10,18 @@ abstract class base {             // abstract class due to abstract method neces
     }
 
     abstract void greet();   // abstract method
+    abstract void greet1();
 }
-class funk extends base{
+abstract class funk extends base{
     @Override
-    public void greet(){
+    public void greet() {
         System.out.println("I am funk");
     }
 }
 
-clas classy extends funk(){
-    public classy(){
-        System.out.println("I am classy");
+class classy extends base{
+    public void greet1(){
+        System.out.println("I am greet");
     }
 }
 public class HowToAbs {
