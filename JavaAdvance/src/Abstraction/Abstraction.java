@@ -1,4 +1,6 @@
-class mobiles{
+package Abstraction;
+
+abstract class mobiles{
 
 
 
@@ -11,7 +13,7 @@ class mobiles{
 
 }
 
-class Samsung extends mobiles{
+abstract class Samsung extends mobiles{
 
     @Override
     void call(){
@@ -25,13 +27,10 @@ class Samsung extends mobiles{
 }
 
 
-
-
-
-
-
 public class Abstraction{
     public static void main(String[] args) {
+        Samsung s1 = new Samsung();
+        s1.message();
         
         
     }
