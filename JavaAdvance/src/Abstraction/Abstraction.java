@@ -32,6 +32,7 @@ public class Abstraction{
         Samsung s1 = new Samsung();
         s1.message();
         
+        d;
         
     }
 
