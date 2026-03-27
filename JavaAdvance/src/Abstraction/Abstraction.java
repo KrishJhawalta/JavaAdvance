@@ -29,7 +29,7 @@ abstract class Samsung extends mobiles{
 
 public class Abstraction{
     public static void main(String[] args) {
-        Samsung s1 = new Samsung();
+        Samsung s1 = new Samsung();    // object of extended new class
         s1.message();
         
         d;
