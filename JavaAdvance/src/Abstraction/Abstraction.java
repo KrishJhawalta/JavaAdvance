@@ -17,11 +17,11 @@ abstract class Samsung extends mobiles{
 
     @Override
     void call(){
-        System.out.println("Calling samsung");
+        System.out.println("Calling samsung");  // method overrride
     }
 
-    @Override
-    void message(){
+    @Override                      
+    void message(){                 // again method overrride
         System.out.println("Messaging from samsung");
     }
 }
