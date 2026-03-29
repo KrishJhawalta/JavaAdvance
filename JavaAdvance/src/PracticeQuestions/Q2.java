@@ -26,6 +26,10 @@ public class Q2 {
 
         // Question 2: Create a pen class from Q1 to create concrete class FountainPen with additional method changeNib();
 
+        FountainPen fp = new FountainPen();
+        fp.write();
+        fp.refill();
+        fp.changeNib();
         
     }
     
