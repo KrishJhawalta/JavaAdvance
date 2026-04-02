@@ -28,14 +28,14 @@ class Employee{
 }
 
 public class HowToInterface{
-    public static void main() {
+    public static void main(String[]args) {
 
         // Object creating
         Employee e = new Employee(0,null);
-        // setter
+        // setter objects
         e.setId(55);
         e.setName("krish");
-        // getter
+        // getter objects
         e.getName();
         e.getId();
 
